@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Code4Girls - Command Line</title>
+<title>git</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11751,7 +11751,27 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Code4Girls---Command-Line">Code4Girls - Command Line<a class="anchor-link" href="#Code4Girls---Command-Line">&#182;</a></h1><p>Quellen: [<a href="http://tutorial.djangogirls.org/en/intro_to_command_line/">http://tutorial.djangogirls.org/en/intro_to_command_line/</a>]</p>
+<h1 id="Git-and-Github">Git and Github<a class="anchor-link" href="#Git-and-Github">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="1.-Code4Girls_4U-Repo-(Ordner)-holen">1. Code4Girls_4U Repo (Ordner) holen<a class="anchor-link" href="#1.-Code4Girls_4U-Repo-(Ordner)-holen">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Terminal öffnen und eingeben:</p>
+<p><code>git clone https://github.com/P3nny/Code4Girls_4U.git</code></p>
+<p>Das erzeugt ein neues Verzeichnis 'Code4Girls_4U' ```</p>
 
 </div>
 </div>
@@ -11761,11 +11781,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> Hi, schön, dass Du lernen willst, wie Du Deinen Rechner über die Kommandazeile steuerst. </strong></p>
-<h3 id="-1.-Kommandozeile-&#246;ffnen"><strong> 1. Kommandozeile &#246;ffnen</strong><a class="anchor-link" href="#-1.-Kommandozeile-&#246;ffnen">&#182;</a></h3><p>Auf deinem Linux-Rechner öffnest Du die Kommando-Zeile, indem Du in der linken oberen Ecke auf Aktivitäten klickst. Dann wählst Du das zweite Icon aus - das schwarze Fenster, bei dem Terminal steht, wenn Du mit der Maus drüber fährst.
-Wenn Du darauf klickst, öffnet sich ein schwarzes Fenster: 
-<code>user@debian:~$</code></p>
-<p>Nach dem $ Zeichen, kannst Du Deine Befehle eintippen.</p>
+<p>Jetzt müsst ihr noch in den Seitenast wechseln, der die Dokumente enthält, die unter <a href="https://p3nny.github.io/Code4Girls_4U/">https://p3nny.github.io/Code4Girls_4U/</a> online stehen.</p>
+<p><code>git checkout -b gh-pages</code></p>
 
 </div>
 </div>
@@ -11775,421 +11792,17 @@ Wenn Du darauf klickst, öffnet sich ein schwarzes Fenster:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="-2.-Wo-bin-ich?-"><strong> 2. Wo bin ich? </strong><a class="anchor-link" href="#-2.-Wo-bin-ich?-">&#182;</a></h3><p>Top, jetzt kannst Du loslegen.
-Am besten gucken wir mal, in welchem Ordner auf dem Rechner wir gerade sind. Das machst du mit <code>pwd</code> - das steht für 'print working directory'</p>
-
+<h2 id="2.-HTML,-CSS,-JavaScript">2. HTML, CSS, JavaScript<a class="anchor-link" href="#2.-HTML,-CSS,-JavaScript">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">pwd</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/user
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.-Was-ist-drin?"><strong>3. Was ist drin?</strong><a class="anchor-link" href="#3.-Was-ist-drin?">&#182;</a></h3><p>Jetzt lass Dir mal eine Liste (ls) anzeigen, was in diesem Ordner alles drin ist.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Aufnahmen			 Desktop     R
-Bilder				 Dokumente   Schreibtisch
-C:\nppdf32Log\debuglog.txt	 Downloads   Scratch
-Code4Girls_4U			 Musik	     Videos
-Code4Girls - Command Line.ipynb  Öffentlich  Vorlagen
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="-4.-Verzeichnis-wechseln"><strong> 4. Verzeichnis wechseln</strong><a class="anchor-link" href="#-4.-Verzeichnis-wechseln">&#182;</a></h3><p>Wenn Du in einen dieser Ordner wechseln willst, dann gibst du 'cd' für 'change directory' ein und tippst die ersten Buchstaben, des Ordners, in den Du willst.</p>
-<p>Trick: Nach den ersten Buchstaben kann der Rechner deine Eingabe vervollständigen, drücke dafür die Tab -&gt; Taste.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> Bilder
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Dass Du in einem neuen Ornder bist, siehts Du an dem, was vor dem $ steht.</p>
-<p>user@debian:~/Bilder$</p>
-<p>Du kannst Dir aber natürlich auch ausgeben lassen, wo Du bist:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">pwd</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/user/Bilder
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Hier kannst Du Dir wieder mit 'ls' den Inhalt anzeigen lassen</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Cute-Black-and-White-Panda-colors-34704878-2560-1600.jpg
-digikam4.db
-einstieg_python.png
-Fotodokumentation_Code4Girls_Osterferien2016.pdf
-minions-despicable-me-minions-38653050-1280-720.jpg
-thumbnails-digikam.db
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="-5.-Wieder-raus-"><strong> 5. Wieder raus </strong><a class="anchor-link" href="#-5.-Wieder-raus-">&#182;</a></h3><p>Wenn Du wieder zurück in den nächsthöheren Ordner willst, gibst Du 'cd ..' ein.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> ..
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">pwd</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/user
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> 6. Mach Dein eigenes Verzeichnis </strong></p>
-<p>Ein neues verzeichnis mit dem Namen 'dein_name' erstellst Du mit 'mkdir dein_name':</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>mkdir patricia
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Hat das geklappt? Lass es Dir mit 'ls' anzeigen. Du kannst auch gerne oben links über 'Orte' Dir die Verzeichnisse in einer gewohnten grafischen Oberfläche ansehen.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Aufnahmen			 Dokumente   Schreibtisch
-Bilder				 Downloads   Scratch
-C:\nppdf32Log\debuglog.txt	 Musik	     Videos
-Code4Girls_4U			 Öffentlich  Vorlagen
-Code4Girls - Command Line.ipynb  patricia
-Desktop				 R
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Nun wechsele bitte in das neue Verzeichnis.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> patricia
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> 7. Eine Datei erstellen </strong></p>
-<p>Du kannst über die Kommandazeile auch Dateien anlegen und etwas hinein schreiben. Ein Weg das zu tun, ist das Textprogramm 'gedit' zu benutzen.
-Dafür gibst du 'gedit' ein und dann den Namen, den Du der neuen Datei geben willst.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>gedit test.txt
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Das Textprogramm Gedit öffnet sich. Jetzt kannst Du etwas schreiben. Dann speichern (strg+s) und über x schließen. 
-Dann bist Du zurück in Deiner Kommandazeile.</p>
+<p>Im Unter-Ordner 'html' findet ihr die Datei 'girl.html', die passt ihr bitte an.
+So entsteht eure eigene Code4Girls Seite.</p>
 
 </div>
 </div>
@@ -12199,118 +11812,17 @@ Dann bist Du zurück in Deiner Kommandazeile.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> 8. Inhalt der Datei ausgeben lassen </strong></p>
-<p>Wenn Du willst, dass Dir die Kommandozeile anzeigt, was in einer Datei ist, dann kannst Du 'cat' benutzen.</p>
-
+<h2 id="Wie-geht-deine-Seite-online?">Wie geht deine Seite online?<a class="anchor-link" href="#Wie-geht-deine-Seite-online?">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>cat test.txt
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hallo Code4Girls!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> 9. Eine Datei löschen </strong></p>
-<p>Mit 'rm' für 'remove' kannst Dateien auch wieder löschen.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>rm test.txt
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Hat das gklappt? Lasse Dir den Inhalt deines Verzeichnisses anzeigen.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Nix mehr drin :)</p>
+<p>Wir benutzen dafür auch git. 
+Damit wir uns nicht ins Gehe kommen, darf immer nur diejenige ihre Änderungen online stellen, die den 'Github Token' vor sich liegen hat.</p>
 
 </div>
 </div>
@@ -12320,513 +11832,52 @@ Dann bist Du zurück in Deiner Kommandazeile.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> 10. Ein Verzeichnis löschen </strong></p>
-<p>Um ein Verzeichnis zu entfernen, wechselst Du wieder in den nächsthöheren Ordner. 
-Wenn Du ein Verzeichnis entfernen willst, dann klappt rm nicht.</p>
+<p><strong>Überprüfen, ob es zwischendurch Änderungen gab: </strong></p>
+<p><code>git pull</code></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> ..
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Aufnahmen			 Dokumente   Schreibtisch
-Bilder				 Downloads   Scratch
-C:\nppdf32Log\debuglog.txt	 Musik	     Videos
-Code4Girls_4U			 Öffentlich  Vorlagen
-Code4Girls - Command Line.ipynb  patricia
-Desktop				 R
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>rm patricia
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>rm: das Entfernen von „patricia“ ist nicht möglich: Ist ein Verzeichnis
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fehlermeldungen sind beim Programmieren ganz normal. Oft liefert Dir der Fehler einen Hinweis, was nicht geklappt hat.
-In diesem Fall kann ein Verzeichnis nur mit einem zusätzlichen befehl gelöscht werden: Du musst 'remove -r' für 'repository' (Verzeichnis) eingeben.</p>
+<p><strong> Eigene Änderungen mit git 'speichern': </strong></p>
+<p><code>git status</code> Änderungen werden rot angezeigt</p>
+<p><code>git add --all</code> Änderungen zum Zwiwschenstand hinzufügen</p>
+<p><code>git status</code> Änderungen werden grün angezeigt</p>
+<p><code>git commit -m ' Beschreiben, was ihr gemacht habe'</code> Änderungen werden als Zwischenstand gespeichert</p>
+<p><code>git push origin gh-pages</code></p>
+<p>Benutzer eingeben: P3nny</p>
+<p>Passwort eingeben:</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>rm -r patricia
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Aufnahmen			 Desktop     R
-Bilder				 Dokumente   Schreibtisch
-C:\nppdf32Log\debuglog.txt	 Downloads   Scratch
-Code4Girls_4U			 Musik	     Videos
-Code4Girls - Command Line.ipynb  Öffentlich  Vorlagen
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> 11. Und tschüs!</strong></p>
-<p>Das Terminal kannst Du auch auf die Hacker-Art wieder schließen.</p>
+<p>Dann nachgucken, ob die Seite online ist:</p>
+<p><a href="https://p3nny.github.io/Code4Girls_4U/html/">https://p3nny.github.io/Code4Girls_4U/html/</a></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">exit</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>exit
-Restarting Bash</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
 </div>
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Und-jetzt-mal-was-Cooles!">Und jetzt mal was Cooles!<a class="anchor-link" href="#Und-jetzt-mal-was-Cooles!">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Starte deine Kommandozeile wieder. </li>
-<li>Mache ein neues Verzeichnis mit dem Namen 'code4girls'. </li>
-<li>Wechsele in das neue Verzeichnis.</li>
-</ul>
-<p>Ich möchte, dass Ihr jetzt ein Verzeichnis herunterladet, das ich für Euch auf der Programmierer-Plattform 'github' erstellt habe. 
-Git ist ein Programm, das auf Eurem Linux-Rechner bereits installiert ist. Man kann damit beim Programmieren zwischendurch abpseichern, was man gerade gemacht hat. Wenn etwas schief gelaufen ist, kann man zu einem früheren Stand zurück kehren. Git ist eine sehr praktische Idee des Linux-Erfinders Linus Torvalds. 
-Um mit anderen zusammenzuarbeiten stellen viele Entwickler Ihren Code auf der Internetseite 'Github' zur Verfügung. Er kann dann frei herunterladen, verbessert, verändert und wieder geteilt werden.</p>
-<p>Um ein Verzeichnis von Github herunterzuladen gebt ihr ein:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>git clone https://github.com/code4girls/marie.git
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Klone nach &#39;marie&#39;...
-remote: Counting objects: 26, done.
-remote: Total 26 (delta 0), reused 0 (delta 0), pack-reused 26
-Entpacke Objekte: 100% (26/26), Fertig.
-Prüfe Konnektivität... Fertig.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Geklappt?</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Aufnahmen			 Dokumente   Schreibtisch
-Bilder				 Downloads   Scratch
-C:\nppdf32Log\debuglog.txt	 marie	     Videos
-Code4Girls_4U			 Musik	     Vorlagen
-Code4Girls - Command Line.ipynb  Öffentlich
-Desktop				 R
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> marie
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> Aufgabe: </strong></p>
-<p>Was ist im Ordner Marie drin? Benutze einen Terminal-Befehl.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Um einen einzelnen Inhalt anzuzeigen, gibst Du folgenden Befehl ein:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>display marie_0.png
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> Image-Magick </strong></p>
-<p>Ich möchte zeigen, wie mächtig, die Kommandozeile sein kann. Wir benutzen ein Kommandozeilen-Programm, das 'Image Magick' heißt. Schau Dir an, was passiert, wenn Du folgende Codezeile eingibst:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>convert -delay <span class="m">60</span> -loop <span class="m">0</span> *.png mariechen.gif
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Was hat sich verändert?</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>marie_0.png   marie_14.png  marie_19.png  marie_23.png	marie_6.png
-marie_10.png  marie_15.png  marie_1.png   marie_2.png	marie_7.png
-marie_11.png  marie_16.png  marie_20.png  marie_3.png	marie_8.png
-marie_12.png  marie_17.png  marie_21.png  marie_4.png	marie_9.png
-marie_13.png  marie_18.png  marie_22.png  marie_5.png	mariechen.gif
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Lass Dir die neue Datei anzeigen:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>iceweasel mariechen.gif
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre></pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="YAY!">YAY!<a class="anchor-link" href="#YAY!">&#182;</a></h2>
-</div>
-</div>
 </div>
     </div>
   </div>
